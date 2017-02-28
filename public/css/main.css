@@ -1,0 +1,132 @@
+body {
+    padding: 7% 23%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+}
+
+.body {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.instructionPopup {
+    margin-top: 8%;
+    margin-right: 22%;
+    text-align: center;
+    border: 7px solid black;
+    background-color: #ffcd00;
+    padding:1%;
+}
+
+.userInputedName {
+    padding: 2% 8%;
+    font-size:17px;
+    text-align:center;
+}
+
+.startApplicationButton {
+    border: 1px solid black;
+    margin: 3% 39%;
+}
+
+.startApplicationButton:hover {
+    cursor: pointer;
+}
+
+.selectedYellow {
+    background-color: yellow;
+}
+
+.selectedRed {
+    background-color: red;
+}
+
+.highlightOptions {
+    display: none;
+    position: absolute;
+    background-color: orange;
+    opacity: 0.7;
+}
+
+.highlightOptions:hover {
+    opacity: 1;
+}
+
+.sample {
+    opacity: 0.1;
+}
+
+.sampl .material-icons {
+    font-family: 'Material Icons';
+    border: 1px solid black;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'liga';
+}
+
+.userCommentAfterClick {
+    position: absolute;
+    background-color: red;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    opacity: 1;
+    font-size: 20px;
+    padding: 0.3%;
+}
+
+.material-icons:hover {
+    cursor: pointer;
+}
+
+.closeCommentIcon,
+.deleteCommentIcon {
+    background-color: grey;
+    border: 1px solid black;
+}
+
+.indivCommentContainer {
+    opacity: 0.4;
+}
+
+.indivCommentContainer:hover {
+    opacity: 1;
+}
+
+.commentOptions {
+    position: absolute;
+}
+
+.hide {
+    display: none;
+}
+
+#msgbox {
+    font-size: 16px;
+    left: -600px;
+}
+
+#msgbox p {
+    font-size: 12px;
+}
+
+#msgbox textarea {
+    font-size: 12px;
+}
+
+.ui-dialog-titlebar-close {
+    visibility: hidden;
+}
